@@ -7,17 +7,20 @@
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
     <style>
+       html {
+          scroll-behavior: smooth;
+       }
         .jumbotron {
             background: url("https://images.unsplash.com/photo-1648073141651-c61c052d9079?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat center;
         }
         .btn-primary {
-            background-color: #c60063;
-            border-color: #c60063;
+            background-color: orange;
+            border-color: orange;
         }
         .btn-secondary {
             background-color: transparent;
-            border-color: #c60063;
-            color: #c60063;
+            border-color: violet;
+            color: violet;
         }
     </style>
    </head>
@@ -49,7 +52,8 @@
             </div>
         </div>
     </nav>
-    <header class="jumbotron jumbotron-fluid">
+
+    <header class="jumbotron">
         <div class="container-fluid text-center"> 
            <h1 class="display-3">The Best Solution for Your Business</h1>
            <p class="lead pb-4">We help you maximize performance and build a healthy organization.</p>
@@ -59,7 +63,6 @@
 
     <section id="services" class="container">
         <h2 class="display-4 text-center mt-5 mb-3">Our Services</h2>
-        
         <div class="row text-center">
            <div class="col-md-4 mb-4">
               <div class="card h-100">
